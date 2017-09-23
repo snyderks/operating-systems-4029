@@ -8,30 +8,7 @@
 #include <sys/types.h>
 #include <unistd.h>
 
-// (2) Write a Unix program that does the following
-
-//       You run the program in command line using the following syntax:
-
-//                        you_program_name file_name
-
-//        Where file_name is the name of a text file under the current directory
-
-//       When the program starts, it does the following
-
-//       If filename is not specified in the command line, or if there are too
-//       many parameters, display the correct usage and then exit. Otherwise,
-
-//       It forks three (3) child processes
-//       The parent process then displays its own PID information only once,
-//       then waits for its child processes die.
-//       Let one child-process run the "ls -l" command (using the "execl" system
-//       call);
-//       Let another child-process run the "ps -ef" command;
-//       Let the third child-process display the content of the file (specified
-//       by file_name). You can use the program "more" or "cat" to display it.
-//       After all child processes terminate, the main process displays "main
-//       process terminates" then exits.
-
+// A list of possible actions to take. Length is the number of actions.
 enum Action { parent = 0, ls, ps, contents, length };
 
 void command_exec(enum Action a, char* path) {
@@ -42,7 +19,7 @@ void command_exec(enum Action a, char* path) {
     }
     case ps: {
       printf("Entered ps");
-      execl("/bin/ps", "/bin/ps", (char*)NULL);
+      execl("/bin/ps", "/bin/ps", "-ef", (char*)NULL);
       break;
     }
     case contents: {
@@ -60,7 +37,7 @@ void command_exec(enum Action a, char* path) {
 
 int main(int argc, char** argv) {
   if (argc != 2) {
-    printf("Usage: fork_pid number_of_threads\n");
+    printf("Usage: fork_cmd path_to_file\n");
     return 0;
   }
   // Check if we can access the file

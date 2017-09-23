@@ -32,11 +32,23 @@ int main(int argc, char **argv) {
     printf("number_of_threads must be greater than 0.\n");
     return 0;
   }
+
+  // used to prevent duplicate calls of print_pid
+  // by one parent process
+  bool parent_printed = false;
+
   // Forking three processes here
   for (int i = 0; i < 3; i++) {
-    // Child process will get 0 from the fork, so it will be called
-    // by the parent with a nonzero value (makes first parameter true)
-    // and then by the child with a zero value (makes it false)
-    print_pid(fork() != 0, repeats);
+    if (fork() == 0) {
+      print_pid(false, repeats);
+      break; // don't let children fork more processes
+    } else {
+      // parent only gets to call the below once
+      if (!parent_printed) {
+        parent_printed = true;
+        print_pid(true, repeats);
+      }
+      wait(NULL);
+    }
   }
 }
