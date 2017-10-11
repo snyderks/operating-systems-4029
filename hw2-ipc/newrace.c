@@ -237,11 +237,12 @@ int main() {
    * (first will be for readers, second for writers)
    */
   key_t key = ftok(".", 0);
-  semaid = semget(key, 2, IPC_CREAT);
+  semaid = semget(key, 2, IPC_CREAT | 0600);
 
   if (semaid == -1) {
     // error occurred
-    exit(2);
+    printf("Failed to create the semaphores.\n");
+    exit(1);
   }
   printf("semaid: %i\n", semaid);
 
