@@ -12,7 +12,7 @@
 #include <sys/wait.h>
 #include <unistd.h>
 
-#define FILE_SIZE 11
+#define FILE_SIZE 12
 #define NO_PROC 10
 
 int DelayCount = 0;
@@ -200,6 +200,7 @@ void writer() {
   for (j = 0; j < FILE_SIZE - 1; j++) {
     data[j] = writerID + '0';
   }
+  data[j] = 0;
 
   for (i = 0; i < 1; i++) {
     printf("Writer %d (pid = %d) arrives, writing %s to buffer\n", writerID,
@@ -324,7 +325,7 @@ int main() {
   shared_buffer = mmap(0, FILE_SIZE, PROT_READ | PROT_WRITE, MAP_SHARED, fd, 0);
 
   reader_count = mmap(0, sizeof(*reader_count), PROT_READ | PROT_WRITE,
-                      MAP_SHARED | MAP_ANONYMOUS, -1, 0);
+                      MAP_SHARED | MAP_ANON, -1, 0);
   *reader_count = 0;
   if (shared_buffer == (caddr_t)-1 || reader_count == (caddr_t)-1) {
     perror("mmap");
@@ -380,3 +381,4 @@ int main() {
   }
   return 0;
 }
+
