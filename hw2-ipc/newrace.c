@@ -1,3 +1,4 @@
+#define _GNU_SOURCE
 #include <fcntl.h>
 #include <signal.h>
 #include <stdio.h>
@@ -114,6 +115,34 @@ void calculate_delay() {
 // Define operations
 struct sembuf READ_WAIT[1], READ_SIGNAL[1], WRITE_WAIT[1], WRITE_SIGNAL[1];
 
+void readwait() {
+  if (semop(semaid, READ_WAIT, 1) == -1) {
+    printf("Failed to wait on reading semaphore.\n");
+    exit(1);
+  };
+}
+
+void readsignal() {
+  if (semop(semaid, READ_SIGNAL, 1) == -1) {
+    printf("Failed to signal reading semaphore.\n");
+    exit(1);
+  };
+}
+
+void writewait() {
+  if (semop(semaid, WRITE_WAIT, 1) == -1) {
+    printf("Failed to signal reading semaphore.\n");
+    exit(1);
+  };
+}
+
+void writesignal() {
+  if (semop(semaid, WRITE_SIGNAL, 1) == -1) {
+    printf("Failed to signal reading semaphore.\n");
+    exit(1);
+  };
+}
+
 /*-------------------------------------------
    The reader
  --------------------------------------------*/
@@ -127,14 +156,14 @@ void reader() {
 
     // Lock the writers
     // ENTER CRITICAL SECTION
-    semop(semaid, READ_WAIT, 1);
+    readwait();
     (*reader_count)++;
     // If we're the first reader, lock the writers
     if (*reader_count == 1) {
-      semop(semaid, WRITE_WAIT, 1);
+      writewait();
     }
     // EXIT CRITICAL SECTION
-    semop(semaid, READ_SIGNAL, 1);
+    readsignal();
 
     /* read data from shared data */
     for (j = 0; j < FILE_SIZE; j++) {
@@ -144,17 +173,16 @@ void reader() {
 
     // Unlock the writers
     // ENTER CRITICAL SECTION
-    semop(semaid, READ_WAIT, 1);
+    readwait();
     (*reader_count)--;
     // If we were the only reader, unlock the writers
     if (*reader_count == 0) {
-      semop(semaid, WRITE_SIGNAL, 1);
+      writesignal();
     }
     // EXIT CRITICAL SECTION
-    semop(semaid, READ_SIGNAL, 1);
+    readsignal();
 
     /* display result */
-    results[j] = 0;
     printf("      Reader %d gets results = %s\n", readerID, results);
   }
 }
@@ -172,18 +200,13 @@ void writer() {
   for (j = 0; j < FILE_SIZE - 1; j++) {
     data[j] = writerID + '0';
   }
-  data[j] = 0;
 
   for (i = 0; i < 1; i++) {
     printf("Writer %d (pid = %d) arrives, writing %s to buffer\n", writerID,
            getpid(), data);
 
     // Enter critical section
-    semop(semaid, WRITE_WAIT, 1);
-    printf("%i", semaid);
-    printf("Currently writing. Number of readers is %i\n", *reader_count);
-    union semun arg;
-    printf("%i\n", semctl(semaid, 1, GETVAL, arg));
+    writewait();
 
     /* write to shared buffer */
     for (j = 0; j < FILE_SIZE - 1; j++) {
@@ -192,7 +215,7 @@ void writer() {
     }
 
     // Exit critical section
-    semop(semaid, WRITE_SIGNAL, 1);
+    writesignal();
 
     printf("Writer %d finishes\n", writerID);
   }
@@ -237,7 +260,7 @@ int main() {
    * (first will be for readers, second for writers)
    */
   key_t key = ftok(".", 0);
-  semaid = semget(key, 2, IPC_CREAT | 0600);
+  semaid = semget(key, 2, IPC_CREAT | 0666);
 
   if (semaid == -1) {
     // error occurred
@@ -246,22 +269,19 @@ int main() {
   }
   printf("semaid: %i\n", semaid);
 
-  union semun arg;
-  arg.val = 1;
+  struct sembuf sbuf;
+  sbuf.sem_num = 0;
+  sbuf.sem_op = 1;
+  sbuf.sem_flg = 0;
 
-  // Set the semaphores to 1
-  if (semctl(semaid, 0, SETVAL, arg)) {
-    printf("Failed to write to semaphore 0\n");
-    exit(1);
-  }
-  if (semctl(semaid, 1, SETVAL, arg)) {
-    printf("Failed to write to semaphore 1\n");
-    exit(1);
-  }
+  semop(semaid, &sbuf, 1);
 
-  int sval = semctl(semaid, 0, IPC_RMID, arg);
-  int sval2 = semctl(semaid, 1, IPC_RMID, arg);
-  printf("Initial value of read: %i\nAnd write: %i\n", sval, sval2);
+  struct sembuf sbuf2;
+  sbuf2.sem_num = 1;
+  sbuf2.sem_op = 1;
+  sbuf2.sem_flg = 0;
+
+  semop(semaid, &sbuf2, 1);
 
   // Defining WAIT
   READ_WAIT[0].sem_num = 0;
@@ -302,6 +322,7 @@ int main() {
   unlink("race.dat");
 
   shared_buffer = mmap(0, FILE_SIZE, PROT_READ | PROT_WRITE, MAP_SHARED, fd, 0);
+
   reader_count = mmap(0, sizeof(*reader_count), PROT_READ | PROT_WRITE,
                       MAP_SHARED | MAP_ANONYMOUS, -1, 0);
   *reader_count = 0;
@@ -352,8 +373,10 @@ int main() {
   for (i = 0; i < (readerID + writerID); i++) {
     wait(NULL);
   }
-  // if (parent == 1) {
-  //   semctl(semaid, 0, IPC_RMID, arg);
-  // }
+
+  union semun arg;
+  if (parent == 1) {
+    semctl(semaid, 0, IPC_RMID, arg);
+  }
   return 0;
 }
