@@ -1,0 +1,360 @@
+a.out
+mailer.c
+  PID 
+    1 /sbin/launchd
+   42 /usr/libexec/UserEventAgent (System)
+   43 /usr/sbin/syslogd
+   46 /System/Library/PrivateFrameworks/Uninstall.framework/Resources/uninstalld
+   47 /usr/libexec/kextd
+   48 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/Support/fseventsd
+   53 /System/Library/CoreServices/appleeventsd --server
+   54 /usr/libexec/configd
+   56 /System/Library/CoreServices/powerd.bundle/powerd
+   63 /usr/libexec/logd
+   67 /usr/libexec/airportd
+   69 /usr/libexec/warmd
+   78 /usr/libexec/diskarbitrationd
+   84 /System/Library/CoreServices/backupd.bundle/Contents/Resources/mtmfs --tcp --resvport --listen localhost --oneshot --noportmap --nobrowse
+   87 /usr/libexec/opendirectoryd
+   88 /usr/sbin/wirelessproxd
+   90 /System/Library/PrivateFrameworks/ApplePushService.framework/apsd
+   91 /System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resources/nbstated
+   92 /System/Library/CoreServices/launchservicesd
+   93 /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/Resources/usbmuxd -launchd
+   94 /usr/sbin/securityd -i
+   96 /usr/libexec/locationd
+   98 /usr/libexec/DuetHeuristic-BM
+   99 /usr/libexec/displaypolicyd -k 1
+  100 /usr/sbin/blued
+  101 autofsd
+  106 /usr/local/mysql/bin/mysqld --user=_mysql --basedir=/usr/local/mysql --datadir=/usr/local/mysql/data --plugin-dir=/usr/local/mysql/lib/plugin --log-error=/usr/local/mysql/data/mysqld.local.err --pid-file=/usr/local/mysql/data/mysqld.local.pid
+  107 /System/Library/PrivateFrameworks/GenerationalStorage.framework/Versions/A/Support/revisiond
+  108 /System/Library/CoreServices/logind
+  109 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow console
+  110 /usr/sbin/KernelEventAgent
+  112 /usr/libexec/hidd
+  113 /usr/libexec/corebrightnessd --launchd
+  114 /usr/libexec/AirPlayXPCHelper
+  115 /usr/sbin/notifyd
+  116 /usr/sbin/distnoted daemon
+  118 /System/Library/CoreServices/coreservicesd
+  120 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/authd.xpc/Contents/MacOS/authd
+  133 /System/Library/Frameworks/PCSC.framework/Versions/A/XPCServices/com.apple.ctkpcscd.xpc/Contents/MacOS/com.apple.ctkpcscd
+  145 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+  157 /usr/libexec/lsd runAsRoot
+  176 /usr/sbin/mDNSResponder
+  177 /usr/sbin/mDNSResponderHelper
+  179 /System/Library/CoreServices/CrashReporterSupportHelper server-init
+  182 /usr/sbin/coreaudiod
+  208 /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/CVMServer
+  229 /System/Library/CoreServices/backupd.bundle/Contents/Resources/mtmd
+  234 /usr/libexec/nsurlsessiond --privileged
+  236 /usr/sbin/ntpd -c /private/etc/ntp-restrict.conf -n -g -p /var/run/ntpd.pid -f /var/db/ntp.drift
+  239 /usr/libexec/corestoraged
+  240 /usr/libexec/thermald
+  245 /usr/libexec/symptomsd
+  249 sysmond
+  257 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+  271 /usr/libexec/watchdogd
+  317 /System/Library/CoreServices/sharedfilelistd --enable-legacy-services
+  340 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeaccountd daemon
+  342 /usr/libexec/securityd_service
+  347 /usr/libexec/UserEventAgent (Aqua)
+  349 /usr/sbin/distnoted agent
+  352 /usr/libexec/lsd
+  356 /usr/libexec/languageassetd --firstLogin
+  363 /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd
+  364 /System/Library/PrivateFrameworks/IMCore.framework/imagent.app/Contents/MacOS/imagent
+  372 /usr/libexec/sharingd
+  375 /usr/sbin/usernoted
+  376 /usr/libexec/nsurlsessiond
+  379 /System/Library/PrivateFrameworks/CalendarAgent.framework/Executables/CalendarAgent
+  383 /System/Library/PrivateFrameworks/CloudDocsDaemon.framework/Versions/A/Support/bird
+  384 /System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resources/nbagent.app/Contents/MacOS/nbagent
+  391 /System/Library/PrivateFrameworks/PassKitCore.framework/passd
+  394 /System/Library/PrivateFrameworks/UserActivity.framework/Agents/useractivityd
+  395 /System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoteagent
+  399 /usr/sbin/filecoordinationd
+  412 /usr/libexec/pboard
+  414 /System/Library/CoreServices/sharedfilelistd
+  430 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod
+  432 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeaccountd
+  441 /System/Library/CoreServices/backupd.bundle/Contents/Resources/TMCacheDelete
+  443 /System/Library/PrivateFrameworks/PackageKit.framework/Resources/installd
+  444 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storedownloadd
+  445 /System/Library/PrivateFrameworks/PackageKit.framework/Resources/system_installd
+  537 /System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdated
+  545 /System/Library/PrivateFrameworks/SoftwareUpdate.framework/Resources/suhelperd
+  664 /System/Library/PrivateFrameworks/InstallerDiagnostics.framework/Versions/A/Resources/installerdiagd
+  678 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdflagwriter
+  679 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdflagwriter
+  681 /System/Library/CoreServices/SocialPushAgent.app/Contents/MacOS/SocialPushAgent
+  687 /System/Library/PrivateFrameworks/AskPermission.framework/Versions/A/Resources/askpermissiond
+  745 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Support/fontd
+  855 /usr/libexec/taskgated -s
+  903 /Applications/Calendar.app/Contents/MacOS/Calendar -psn_0_184365
+  904 /Applications/Messages.app/Contents/MacOS/Messages -psn_0_188462
+  905 /Applications/Utilities/Terminal.app/Contents/MacOS/Terminal -psn_0_192559
+  911 /Applications/Wunderlist.app/Contents/MacOS/Wunderlist -psn_0_217141
+  912 /System/Library/CoreServices/Dock.app/Contents/MacOS/Dock
+  914 /System/Library/CoreServices/SystemUIServer.app/Contents/MacOS/SystemUIServer
+  915 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+  928 /System/Library/CoreServices/Dock.app/Contents/XPCServices/com.apple.dock.extra.xpc/Contents/MacOS/com.apple.dock.extra
+  939 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeinappd
+  941 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeassetd
+  955 /System/Library/Frameworks/InputMethodKit.framework/Resources/imklaunchagent
+  956 /System/Library/Input Methods/PressAndHold.app/Contents/PlugIns/PAH_Extension.appex/Contents/MacOS/PAH_Extension
+  958 /System/Library/CoreServices/SubmitDiagInfo server-init
+  959 /System/Library/PrivateFrameworks/CoreWLANKit.framework/Versions/A/XPCServices/WiFiProxy.xpc/Contents/MacOS/WiFiProxy
+  962 /System/Library/Services/AppleSpell.service/Contents/MacOS/AppleSpell
+  977 /Applications/coconutBattery.app/Contents/Resources/coconutBattery Menu.app/Contents/MacOS/coconutBattery Menu
+  978 /System/Library/CoreServices/NotificationCenter.app/Contents/MacOS/NotificationCenter
+  979 /System/Library/CoreServices/Siri.app/Contents/MacOS/Siri launchd
+  981 /System/Library/Image Capture/Support/icdd
+  982 /Library/ucit/uprint/bin/UniversalPrinting.app/Contents/MacOS/JavaApplicationStub --daemon
+  988 /System/Library/CoreServices/PowerChime.app/Contents/MacOS/PowerChime
+  991 /System/Library/CoreServices/AirPlayUIAgent.app/Contents/MacOS/AirPlayUIAgent --launchd
+  992 /System/Library/CoreServices/cloudpaird
+  993 QA2G25RMZ4.com.wunderkinder.wunderlist-helper
+  994 /System/Library/CoreServices/WiFiAgent.app/Contents/MacOS/WiFiAgent
+  995 /System/Library/CoreServices/diagnostics_agent
+ 1004 /Applications/puush.app/Contents/MacOS/puush
+ 1005 /Applications/RescueTime.app/Contents/MacOS/RescueTime
+ 1077 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storelegacy
+ 1097 /System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/Resources/universalAccessAuthWarn.app/Contents/MacOS/universalAccessAuthWarn launchd -s
+ 1111 /System/Library/PrivateFrameworks/CommerceKit.framework/Resources/LaterAgent.app/Contents/MacOS/LaterAgent
+ 1125 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdwrite
+ 1279 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeinstalld
+ 1470 /System/Library/PrivateFrameworks/FamilyCircle.framework/Versions/A/Resources/familycircled
+ 1500 /System/Library/PrivateFrameworks/AmbientDisplay.framework/Versions/A/XPCServices/com.apple.AmbientDisplayAgent.xpc/Contents/MacOS/com.apple.AmbientDisplayAgent
+ 1508 /System/Library/PrivateFrameworks/KerberosHelper/Helpers/DiskUnmountWatcher
+ 1515 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+ 1517 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+ 1574 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/SpeechSynthesis.framework/Resources/com.apple.speech.speechsynthesisd
+ 1887 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking
+ 2484 /usr/bin/java -Ddaemon.port=50660 -Dlog4j.configurationFile=/Users/kristian/.vim/plugged/vim-javacomplete2/libs/javavi/target/classes/log4j2.xml kg.ash.javavi.Javavi -sources  -base /Users/kristian/.cache/javacomplete2/ -compiler javac -D 50660
+ 3403 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeuid.app/Contents/MacOS/storeuid
+ 3609 /usr/bin/ssh-agent -l
+ 3862 /System/Library/StagedFrameworks/Safari/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking
+ 3865 /System/Library/StagedFrameworks/Safari/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Databases.xpc/Contents/MacOS/com.apple.WebKit.Databases
+ 5079 ssh-agent -s
+ 6395 /System/Library/CoreServices/ControlStrip.app/Contents/MacOS/ControlStrip
+11623 /System/Library/PrivateFrameworks/PhotoLibraryPrivate.framework/Versions/A/Frameworks/PhotoLibraryServices.framework/Versions/A/XPCServices/com.apple.photomoments.xpc/Contents/MacOS/com.apple.photomoments
+11940 /Applications/Slack.app/Contents/MacOS/Slack
+11946 /Applications/Slack.app/Contents/Frameworks/Slack Helper.app/Contents/MacOS/Slack Helper --type=renderer --disable-pinch --no-sandbox --primordial-pipe-token=CF28F7811075AE3EAB3FC63E4BA3C1EF --lang=en-US --standard-schemes=slack-resources,slack-webapp-dev --app-path=/Applications/Slack.app/Contents/Resources/app.asar --node-integration=true --preload=/Applications/Slack.app/Contents/Resources/app.asar/src/static/index.js --hidden-page --num-raster-threads=2 --enable-gpu-rasterization --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,34037;0,11,34037;0,12,34037;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,34037;1,11,34037;1,12,34037;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,34037;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,34037;2,13,3553;2,14,34037;2,15,34037;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,34037;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,34037;3,13,3553;3,14,34037;3,15,34037 --service-request-channel-token=CF28F7811075AE3EAB3FC63E4BA3C1EF --renderer-client-id=4
+12311 /System/Library/PrivateFrameworks/CoreFP.framework/Versions/A/fpsd
+12382 /usr/libexec/syspolicyd
+13304 /Applications/Microsoft Word.app/Contents/MacOS/Microsoft Word
+13531 /Applications/Bear.app/Contents/MacOS/Bear
+14440 /System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter -L
+16013 /Applications/GitHub Desktop.app/Contents/MacOS/GitHub Desktop
+16027 /Applications/GitHub Desktop.app/Contents/Frameworks/GitHub Desktop Helper.app/Contents/MacOS/GitHub Desktop Helper --type=gpu-process --no-sandbox --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,1,10,23,25,36,39,40,47,53,61,63,64,65,66,68,73,74,76,84,85,86,89,92 --disable-gl-extensions=GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent --gpu-vendor-id=0x8086 --gpu-device-id=0x1926 --gpu-driver-vendor --gpu-driver-version --gpu-driver-date --gpu-active-vendor-id=0x8086 --gpu-active-device-id=0x1926 --service-request-channel-token=927593946048767CEB9EDB76399ABFE9
+16052 /Applications/GitHub Desktop.app/Contents/Frameworks/GitHub Desktop Helper.app/Contents/MacOS/GitHub Desktop Helper --type=renderer --no-sandbox --primordial-pipe-token=AB2A1E3ADD9E68D2865C18F7CB1A6A73 --lang=en-US --app-path=/Applications/GitHub Desktop.app/Contents/Resources/app --enable-experimental-web-platform-features --node-integration=true --webview-tag=true --no-sandbox --background-color=#fff --disable-blink-features=Auxclick --enable-pinch --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,34037;0,11,34037;0,12,34037;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,34037;1,11,34037;1,12,34037;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,34037;2,11,34037;2,12,34037;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,34037;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,34037;3,13,3553;3,14,34037;3,15,34037;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,34037;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,34037;4,13,3553;4,14,34037;4,15,34037 --service-request-channel-token=AB2A1E3ADD9E68D2865C18F7CB1A6A73 --renderer-client-id=4
+17462 /Library/CoreMediaIO/Plug-Ins/DAL/AppleCamera.plugin/Contents/Resources/AppleCameraAssistant
+18188 /Applications/Dropbox.app/Contents/MacOS/Dropbox /firstrunupdate 11676
+18193 /Applications/Dropbox.app/Contents/MacOS/Dropbox -type:crashpad-handler --no-upload-gzip --no-rate-limit --database=/Users/kristian/.dropbox/Crashpad --metrics-dir=0 --url=https://d.dropbox.com/report_crashpad_minidump --https-pin=0x23,0xf2,0xed,0xff,0x3e,0xde,0x90,0x25,0x9a,0x9e,0x30,0xf4,0xa,0xf8,0xf9,0x12,0xa5,0xe5,0xb3,0x69,0x4e,0x69,0x38,0x44,0x3,0x41,0xf6,0x6,0xe,0x1,0x4f,0xfa --https-pin=0xaf,0xf9,0x88,0x90,0x6d,0xde,0x12,0x95,0x5d,0x9b,0xeb,0xbf,0x92,0x8f,0xdc,0xc3,0x1c,0xce,0x32,0x8d,0x5b,0x93,0x84,0xf2,0x1c,0x89,0x41,0xca,0x26,0xe2,0x3,0x91 --https-pin=0x5a,0x88,0x96,0x47,0x22,0xe,0x54,0xd6,0xbd,0x8a,0x16,0x81,0x72,0x24,0x52,0xb,0xb5,0xc7,0x8e,0x58,0x98,0x4b,0xd5,0x70,0x50,0x63,0x88,0xb9,0xde,0xf,0x7,0x5f --https-pin=0xfe,0xa2,0xb7,0xd6,0x45,0xfb,0xa7,0x3d,0x75,0x3c,0x1e,0xc9,0xa7,0x87,0xc,0x40,0xe1,0xf7,0xb0,0xc5,0x61,0xe9,0x27,0xb9,0x85,0xbf,0x71,0x18,0x66,0xe3,0x6f,0x22 --https-pin=0x76,0xee,0x85,0x90,0x37,0x4c,0x71,0x54,0x37,0xbb,0xca,0x6b,0xba,0x60,0x28,0xea,0xdd,0xe2,0xdc,0x6d,0xbb,0xb8,0xc3,0xf6,0x10,0xe8,0x51,0xf1,0x1d,0x1a,0xb7,0xf5 --https-pin=0x6d,0xbf,0xae,0x0,0xd3,0x7b,0x9c,0xd7,0x3f,0x8f,0xb4,0x7d,0xe6,0x59,0x17,0xaf,0x0,0xe0,0xdd,0xdf,0x42,0xdb,0xce,0xac,0x20,0xc1,0x7c,0x2,0x75,0xee,0x20,0x95 --https-pin=0x1e,0xa3,0xc5,0xe4,0x3e,0xd6,0x6c,0x2d,0xa2,0x98,0x3a,0x42,0xa4,0xa7,0x9b,0x1e,0x90,0x67,0x86,0xce,0x9f,0x1b,0x58,0x62,0x14,0x19,0xa0,0x4,0x63,0xa8,0x7d,0x38 --https-pin=0x87,0xaf,0x34,0xd6,0x6f,0xb3,0xf2,0xfd,0xf3,0x6e,0x9,0x11,0x1e,0x9a,0xba,0x2f,0x6f,0x44,0xb2,0x7,0xf3,0x86,0x3f,0x3d,0xb,0x54,0xb2,0x50,0x23,0x90,0x9a,0xa5 --https-pin=0xbc,0xfb,0x44,0xaa,0xb9,0xad,0x2,0x10,0x15,0x70,0x6b,0x41,0x21,0xea,0x76,0x1c,0x81,0xc9,0xe8,0x89,0x67,0x59,0xf,0x6f,0x94,0xae,0x74,0x4d,0xc8,0x8b,0x78,0xfb --https-pin=0xab,0x98,0x49,0x52,0x76,0xad,0xf1,0xec,0xaf,0xf2,0x8f,0x35,0xc5,0x30,0x48,0x78,0x1e,0x5c,0x17,0x18,0xda,0xb9,0xc8,0xe6,0x7a,0x50,0x4f,0x4f,0x6a,0x51,0x32,0x8f --https-pin=0x49,0x5,0x46,0x66,0x23,0xab,0x41,0x78,0xbe,0x92,0xac,0x5c,0xbd,0x65,0x84,0xf7,0xa1,0xe1,0x7f,0x27,0x65,0x2d,0x5a,0x85,0xaf,0x89,0x50,0x4e,0xa2,0x39,0xaa,0xaa --https-pin=0x56,0x32,0xd9,0x7b,0xfa,0x77,0x5b,0xf3,0xc9,0x9d,0xde,0xa5,0x2f,0xc2,0x55,0x34,0x10,0x86,0x40,0x16,0x72,0x9c,0x52,0xdd,0x65,0x24,0xc8,0xa9,0xc3,0xb4,0x48,0x9f --https-pin=0x2a,0x8f,0x2d,0x8a,0xf0,0xeb,0x12,0x38,0x98,0xf7,0x4c,0x86,0x6a,0xc3,0xfa,0x66,0x90,0x54,0xe2,0x3c,0x17,0xbc,0x7a,0x95,0xbd,0x2,0x34,0x19,0x2d,0xc6,0x35,0xd0 --https-pin=0x32,0xb6,0x4b,0x66,0x72,0x7a,0x20,0x63,0xe4,0x6,0x6f,0x3b,0x95,0x8c,0xb0,0xaa,0xee,0x57,0x6a,0x5e,0xce,0xfd,0x95,0x33,0x99,0xbb,0x88,0x74,0x73,0x1d,0x95,0x87 --https-pin=0xf5,0x3c,0x22,0x5,0x98,0x17,0xdd,0x96,0xf4,0x0,0x65,0x16,0x39,0xd2,0xf8,0x57,0xe2,0x10,0x70,0xa5,0x9a,0xbe,0xd9,0x7,0x94,0x0,0xd9,0xf6,0x95,0x50,0x69,0x0 --https-pin=0x67,0xdc,0x4f,0x32,0xfa,0x10,0xe7,0xd0,0x1a,0x79,0xa0,0x73,0xaa,0xc,0x9e,0x2,0x12,0xec,0x2f,0xfc,0x3d,0x77,0x9e,0xa,0xa7,0xf9,0xc0,0xf0,0xe1,0xc2,0xc8,0x93 --https-pin=0x19,0x6,0xc6,0x12,0x4d,0xbb,0x43,0x85,0x78,0xd0,0xe,0x6,0x6d,0x50,0x54,0xc6,0xc3,0x7f,0xf,0xa6,0x2,0x8c,0x5,0x54,0x5e,0x9,0x94,0xed,0xda,0xec,0x86,0x29 --https-pin=0x1d,0x75,0xd0,0x83,0x1b,0x9e,0x8,0x85,0x39,0x4d,0x32,0xc7,0xa1,0xbf,0xdb,0x3d,0xbc,0x1c,0x28,0xe2,0xb0,0xe8,0x39,0x1f,0xb1,0x35,0x98,0x1d,0xbc,0x5b,0xa9,0x36 --annotation=buildno=Dropbox-mac-37.4.29 --annotation=client_session_id=945245e5-eeba-4e0d-bfd4-66338d33f7a6 --annotation=host_int_account1_boot=6247446488 --annotation=machine_id=e16edc1b-75d8-564a-bc3e-a206a45a75f8 --annotation=platform=mac --annotation=platform_version=10.12.6 --handshake-fd=4
+18194 /Applications/Dropbox.app/Contents/MacOS/Dropbox -type:exit-monitor -method:collectupload -session-token:945245e5-eeba-4e0d-bfd4-66338d33f7a6 -target-handle:18188 -target-shutdown-event:4 -target-command-line:/Applications/Dropbox.app/Contents/MacOS/Dropbox /firstrunupdate 11676
+18232 /Applications/Dropbox.app/Contents/PlugIns/garcon.appex/Contents/MacOS/garcon
+18243 /Applications/Dropbox.app/Contents/PlugIns/garcon.appex/Contents/MacOS/garcon
+18244 /Applications/Dropbox.app/Contents/PlugIns/garcon.appex/Contents/MacOS/garcon
+18245 /Applications/Dropbox.app/Contents/PlugIns/garcon.appex/Contents/MacOS/garcon
+18246 /Applications/Dropbox.app/Contents/PlugIns/garcon.appex/Contents/MacOS/garcon
+18248 /Applications/Dropbox.app/Contents/PlugIns/garcon.appex/Contents/MacOS/garcon
+21372 /Applications/Dropbox.app/Contents/PlugIns/garcon.appex/Contents/MacOS/garcon
+24369 /System/Library/PrivateFrameworks/SyncedDefaults.framework/Support/syncdefaultsd
+25901 /Applications/Google Chrome.app/Contents/Versions/61.0.3163.100/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=renderer --field-trial-handle=16340711328309322735,10908152074780264338,131072 --service-pipe-token=C1F8F417A1105CF234070C5245D9BA95 --lang=en-US --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --blink-settings=disallowFetchForDocWrittenScriptsInMainFrame=false,disallowFetchForDocWrittenScriptsInMainFrameOnSlowConnections=true --enable-pinch --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,34037;0,12,34037;0,13,34037;0,14,3553;0,15,3553;0,16,3553;0,17,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,34037;1,12,34037;1,13,34037;1,14,3553;1,15,3553;1,16,3553;1,17,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,34037;2,12,34037;2,13,34037;2,14,3553;2,15,3553;2,16,3553;2,17,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,34037;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,34037;3,14,34037;3,15,3553;3,16,34037;3,17,34037;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,34037;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,3553;4,13,34037;4,14,34037;4,15,3553;4,16,34037;4,17,34037 --enable-gpu-async-worker-context --service-request-channel-token=C1F8F417A1105CF234070C5245D9BA95 --renderer-client-id=608
+31570 /System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/SafariBookmarksSyncAgent
+32457 /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Resources/Java Updater.app/Contents/MacOS/Java Updater -bgcheck
+32650 /System/Library/StagedFrameworks/Safari/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+32670 /Applications/Contacts.app/Contents/MacOS/Contacts -psn_0_34275502
+33844 /usr/libexec/usbd
+33884 /usr/libexec/USBAgent
+36230 /System/Library/PrivateFrameworks/DiskImages.framework/Resources/diskimages-helper -uuid BF45C8FD-A7A7-40F6-8F57-8D8BA9AA451C -post-exec 4
+39092 /System/Library/PrivateFrameworks/CoreParsec.framework/parsecd
+40521 /System/Library/PrivateFrameworks/BookKit.framework/Versions/A/XPCServices/com.apple.BKAgentService.xpc/Contents/MacOS/com.apple.BKAgentService
+40533 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+40700 /Applications/Visual Studio Code.app/Contents/MacOS/Electron
+40703 /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper --type=gpu-process --no-sandbox --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,1,10,23,25,36,39,40,47,53,61,63,64,65,66,68,73,74,76,84,85,86,89,92 --disable-gl-extensions=GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent --gpu-vendor-id=0x8086 --gpu-device-id=0x1926 --gpu-driver-vendor --gpu-driver-version --gpu-driver-date --gpu-active-vendor-id=0x8086 --gpu-active-device-id=0x1926 --service-request-channel-token=94653C787CF461D78753BDC2BCAECC31
+40706 /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper --type=renderer --js-flags=--nolazy --no-sandbox --primordial-pipe-token=AD3E9484C72DC330871EB2FD4238F51C --lang=en-US --app-path=/Applications/Visual Studio Code.app/Contents/Resources/app --node-integration=true --webview-tag=true --no-sandbox --enable-pinch --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,34037;0,11,34037;0,12,34037;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,34037;1,11,34037;1,12,34037;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,34037;2,11,34037;2,12,34037;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,34037;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,34037;3,13,3553;3,14,34037;3,15,34037;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,34037;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,34037;4,13,3553;4,14,34037;4,15,34037 --service-request-channel-token=AD3E9484C72DC330871EB2FD4238F51C --renderer-client-id=6
+40745 /Applications/Visual Studio Code.app/Contents/Frameworks/Electron Framework.framework/Resources/crashpad_handler --no-rate-limit --no-upload-gzip --database=/var/folders/sq/6dhqk69d3y339s6x2f1nn0q40000gn/T/VSCode Crashes --metrics-dir=/var/folders/sq/6dhqk69d3y339s6x2f1nn0q40000gn/T/VSCode Crashes --url=https://rink.hockeyapp.net/api/2/apps/21a48a66799e47fea4f52c0ff81e803d/crashes/upload --handshake-fd=61
+43573 /System/Library/PrivateFrameworks/DiskImages.framework/Resources/diskimages-helper -uuid 1D670F93-5424-4CAF-8781-E7827E5DF0C3 -post-exec 4
+43582 /System/Library/PrivateFrameworks/DiskImages.framework/Resources/hdiejectd
+43758 /usr/libexec/avconferenced
+43856 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/SpeechSynthesis.framework/Resources/com.apple.speech.speechsynthesisd
+43898 /Applications/iTunes.app/Contents/MacOS/iTunesHelper.app/Contents/MacOS/iTunesHelper -psn_0_6067657
+46417 /System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/com.apple.appkit.xpc.openAndSavePanelService.xpc/Contents/MacOS/com.apple.appkit.xpc.openAndSavePanelService
+49069 /System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/com.apple.appkit.xpc.openAndSavePanelService.xpc/Contents/MacOS/com.apple.appkit.xpc.openAndSavePanelService
+49079 /usr/libexec/captiveagent
+49437 /Applications/Twitter.app/Contents/MacOS/Twitter
+49955 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+50344 /System/Library/CoreServices/Spotlight.app/Contents/MacOS/Spotlight
+50352 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking
+50407 /System/Library/PrivateFrameworks/PhotoLibraryPrivate.framework/Versions/A/Support/photolibraryd
+51803 /Applications/Spotify.app/Contents/MacOS/Spotify
+51806 /Applications/Spotify.app/Contents/Frameworks/Spotify Helper.app/Contents/MacOS/Spotify Helper --monitor-self-annotation=ptype=crashpad-handler --type=crashpad-handler --max-uploads=5 --max-db-size=20 --max-db-age=5 --database=/Users/kristian/Library/Application Support/Spotify/User Data --url=https://crashdump.spotify.com:443 --annotation=platform=macos --annotation=product=spotify --annotation=version=1.0.63.617 --handshake-fd=7
+51807 /Applications/Spotify.app/Contents/Frameworks/Spotify Helper.app/Contents/MacOS/Spotify Helper --type=gpu-process --lang=en-US --log-file=/Users/kristian/Library/Logs/Spotify_debug.log --log-severity=disable --product-version=Spotify/1.0.63.617 --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,1,10,24,27,38,41,42,50,56,64,66,67,68,69,76,77,79,87,88,89,92,95 --disable-gl-extensions=GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent --gpu-vendor-id=0x8086 --gpu-device-id=0x1926 --gpu-driver-vendor --gpu-driver-version --gpu-driver-date --gpu-active-vendor-id=0x8086 --gpu-active-device-id=0x1926 --lang=en-US --log-file=/Users/kristian/Library/Logs/Spotify_debug.log --log-severity=disable --product-version=Spotify/1.0.63.617 --service-request-channel-token=69E89EFE64187A03E6BAD3BED47529B8
+51811 /Users/kristian/Library/Application Support/Spotify/SpotifyWebHelper
+51814 /Applications/Spotify.app/Contents/Frameworks/Spotify Helper.app/Contents/MacOS/Spotify Helper --type=renderer --disable-pinch --service-pipe-token=43AEDD3F5F63DA2FF9D79076E0045C08 --lang=en-US --lang=en-US --log-file=/Users/kristian/Library/Logs/Spotify_debug.log --log-severity=disable --product-version=Spotify/1.0.63.617 --disable-scroll-bounce --disable-spell-checking --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,34037;0,11,34037;0,12,34037;0,13,3553;0,14,3553;0,15,3553;0,16,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,34037;1,11,34037;1,12,34037;1,13,3553;1,14,3553;1,15,3553;1,16,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,34037;2,11,34037;2,12,34037;2,13,3553;2,14,3553;2,15,3553;2,16,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,34037;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,34037;3,13,34037;3,14,3553;3,15,34037;3,16,34037;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,34037;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,34037;4,13,34037;4,14,3553;4,15,34037;4,16,34037 --service-request-channel-token=43AEDD3F5F63DA2FF9D79076E0045C08 --renderer-client-id=3
+52417 /Applications/Microsoft PowerPoint.app/Contents/MacOS/Microsoft PowerPoint
+52832 /System/Library/PrivateFrameworks/AOSAccounts.framework/Versions/A/Resources/iCloudUserNotificationsd.app/Contents/MacOS/iCloudUserNotificationsd
+52896 /Applications/Safari.app/Contents/MacOS/Safari
+52901 /System/Library/StagedFrameworks/Safari/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking
+52905 /usr/libexec/webinspectord
+52912 /System/Library/StagedFrameworks/Safari/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Databases.xpc/Contents/MacOS/com.apple.WebKit.Databases
+53511 /usr/libexec/keyboardservicesd
+53884 /Applications/Discord Canary.app/Contents/Frameworks/Discord Canary Framework.framework/Resources/crashpad_handler --database=/var/folders/sq/6dhqk69d3y339s6x2f1nn0q40000gn/T/Discord Crashes --metrics-dir=/var/folders/sq/6dhqk69d3y339s6x2f1nn0q40000gn/T/Discord Crashes --url=http://crash.discordapp.com:1127/post --handshake-fd=17
+54118 /Applications/Google Chrome.app/Contents/Versions/61.0.3163.100/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=utility --field-trial-handle=16340711328309322735,10908152074780264338,131072 --lang=en-US --service-request-channel-token=6DC586FD0E5B026BB3C0248AA84E7FC4
+56515 /usr/sbin/cfprefsd agent
+57039 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+58449 /Applications/TextEdit.app/Contents/MacOS/TextEdit
+58607 /Applications/Preview.app/Contents/MacOS/Preview -psn_0_29080506
+59004 /System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/com.apple.appkit.xpc.openAndSavePanelService.xpc/Contents/MacOS/com.apple.appkit.xpc.openAndSavePanelService
+59127 /Applications/Slack.app/Contents/Frameworks/Slack Helper.app/Contents/MacOS/Slack Helper --type=renderer --disable-pinch --no-sandbox --primordial-pipe-token=00AFD95608D526898EA849E629D1B5BE --lang=en-US --standard-schemes=slack-resources,slack-webapp-dev --app-path=/Applications/Slack.app/Contents/Resources/app.asar --node-integration=false --preload=/Applications/Slack.app/Contents/Resources/app.asar/src/static/ssb-interop --guest-instance-id=1 --enable-blink-features --disable-blink-features --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,34037;0,11,34037;0,12,34037;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,34037;1,11,34037;1,12,34037;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,34037;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,34037;2,13,3553;2,14,34037;2,15,34037;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,34037;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,34037;3,13,3553;3,14,34037;3,15,34037 --disable-accelerated-video-decode --disable-webrtc-hw-encoding --service-request-channel-token=00AFD95608D526898EA849E629D1B5BE --renderer-client-id=15
+60105 /System/Library/StagedFrameworks/Safari/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+60548 /usr/local/Cellar/watchman/4.9.0/libexec/bin/watchman --foreground --logfile=/usr/local/var/run/watchman/kristian-state/log --log-level=1 --sockname=/usr/local/var/run/watchman/kristian-state/sock --statefile=/usr/local/var/run/watchman/kristian-state/state --pidfile=/usr/local/var/run/watchman/kristian-state/pid
+61631 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Support/mds
+66754 /System/Library/CoreServices/talagent
+66828 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker-sizing -c MDSSizingWorker -m com.apple.mdworker.sizing
+66829 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker-sizing -c MDSSizingWorker -m com.apple.mdworker.sizing
+67048 /System/Library/PrivateFrameworks/DiskImages.framework/Resources/diskimages-helper -uuid DE8A051F-E2CF-4239-87EF-EB7C9B603C98 -post-exec 4
+69559 /Applications/Xcode.app/Contents/SharedFrameworks/DVTInstrumentsFoundation.framework/Resources/DTServiceHub
+69814 /Applications/Xcode.app/Contents/SharedFrameworks/DVTInstrumentsFoundation.framework/Resources/DTServiceHub
+72250 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
+72251 /System/Library/StagedFrameworks/Safari/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.History.xpc/Contents/MacOS/com.apple.Safari.History
+72254 /usr/libexec/trustd --agent
+72256 /usr/libexec/coreduetd
+72259 /System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoted
+72264 /Applications/Dropbox.app/Contents/XPCServices/DropboxActivityProvider.xpc/Contents/MacOS/DropboxActivityProvider
+72266 /System/Library/PrivateFrameworks/PerformanceAnalysis.framework/Versions/A/XPCServices/com.apple.PerformanceAnalysis.animationperfd.xpc/Contents/MacOS/com.apple.PerformanceAnalysis.animationperfd
+72267 /System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd
+72268 /usr/libexec/secd
+72270 /System/Library/Frameworks/AddressBook.framework/Executables/ContactsAccountsService
+72271 /System/Library/Frameworks/Security.framework/Versions/A/Resources/CloudKeychainProxy.bundle/Contents/MacOS/CloudKeychainProxy
+72273 /System/Library/CoreServices/navd
+72274 /System/Library/Frameworks/Security.framework/Versions/A/Resources/KeychainSyncingOverIDSProxy.bundle/Contents/MacOS/KeychainSyncingOverIDSProxy
+72276 /System/Library/PrivateFrameworks/AssetCacheServices.framework/XPCServices/AssetCacheLocatorService.xpc/Contents/MacOS/AssetCacheLocatorService -a
+72277 /usr/libexec/nsurlstoraged
+72278 /usr/sbin/WirelessRadioManagerd
+72282 /System/Library/PrivateFrameworks/TCC.framework/Resources/tccd
+72283 /usr/libexec/gamecontrollerd
+72310 /usr/libexec/trustd
+72311 /System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/Support/akd
+72312 /usr/libexec/nehelper
+72381 /System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/Support/suggestd
+72382 /System/Library/PrivateFrameworks/CalendarNotification.framework/Versions/A/XPCServices/CalNCService.xpc/Contents/MacOS/CalNCService
+72383 /usr/libexec/secinitd
+72384 /usr/libexec/mobileassetd
+72386 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/com.apple.CodeSigningHelper.xpc/Contents/MacOS/com.apple.CodeSigningHelper
+72388 /usr/libexec/nsurlstoraged
+72389 /System/Library/CoreServices/mapspushd
+72422 /System/Library/PrivateFrameworks/MessagesKit.framework/Resources/soagent.app/Contents/MacOS/soagent
+72424 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/XPCServices/com.apple.CommerceKit.TransactionService.xpc/Contents/MacOS/com.apple.CommerceKit.TransactionService
+72461 /usr/libexec/pkd
+72490 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+72491 /usr/sbin/distnoted agent
+72494 /System/Library/PrivateFrameworks/IMDPersistence.framework/XPCServices/IMDPersistenceAgent.xpc/Contents/MacOS/IMDPersistenceAgent
+72505 /System/Library/CoreServices/FolderActionsDispatcher.app/Contents/MacOS/FolderActionsDispatcher
+72506 /System/Library/PrivateFrameworks/TCC.framework/Resources/tccd system
+72538 /System/Library/PrivateFrameworks/WirelessDiagnostics.framework/Support/awdd
+72539 /System/Library/StagedFrameworks/Safari/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.SearchHelper.xpc/Contents/MacOS/com.apple.Safari.SearchHelper
+72564 /usr/libexec/amfid
+72800 /System/Library/PrivateFrameworks/ContactsAgent.framework/Executables/ContactsAgent
+72827 /usr/sbin/spindump
+72829 /System/Library/PrivateFrameworks/CoreSymbolication.framework/coresymbolicationd
+73095 /usr/sbin/systemsoundserverd
+73096 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+73169 /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/XPCServices/com.apple.hiservices-xpcservice.xpc/Contents/MacOS/com.apple.hiservices-xpcservice
+73175 /System/Library/PrivateFrameworks/CoreRecents.framework/Versions/A/Support/recentsd
+73177 /System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/Support/reversetemplated
+73178 /System/Library/PrivateFrameworks/ToneLibrary.framework/Versions/A/XPCServices/com.apple.tonelibraryd.xpc/Contents/MacOS/com.apple.tonelibraryd
+73206 /System/Library/CoreServices/pbs
+73609 /usr/libexec/sandboxd
+73632 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod
+73633 /usr/libexec/secinitd
+73635 /usr/sbin/distnoted agent
+73645 /usr/libexec/networkserviceproxy
+73846 /System/Library/CoreServices/OSDUIHelper.app/Contents/MacOS/OSDUIHelper
+73944 /System/Library/StagedFrameworks/Safari/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.ImageDecoder.xpc/Contents/MacOS/com.apple.Safari.ImageDecoder
+74025 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+74028 /System/Library/CoreServices/ScopedBookmarkAgent
+74051 /System/Library/CoreServices/iconservicesagent
+74052 /System/Library/CoreServices/iconservicesd
+74061 /System/Library/Frameworks/SafariServices.framework/Versions/A/XPCServices/com.apple.SafariServices.xpc/Contents/MacOS/com.apple.SafariServices
+74200 /System/Library/Frameworks/MediaAccessibility.framework/Versions/A/XPCServices/com.apple.accessibility.mediaaccessibilityd.xpc/Contents/MacOS/com.apple.accessibility.mediaaccessibilityd
+74506 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd
+74507 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/MacOS/ctkahp -d
+74508 /usr/libexec/secinitd
+74509 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/MacOS/ctkahp
+74510 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -tw
+74511 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -s
+74530 /usr/libexec/findmydeviced
+74531 /System/Library/PrivateFrameworks/TelephonyUtilities.framework/callservicesd
+74547 /usr/libexec/WiFiVelocityAgent
+74548 /System/Library/CoreServices/AppleIDAuthAgent
+74550 /usr/libexec/wifivelocityd
+74570 /System/Library/PrivateFrameworks/CoreFollowUp.framework/Versions/A/Support/followupd
+74575 /System/Library/PrivateFrameworks/AccountPolicy.framework/XPCServices/com.apple.AccountPolicyHelper.xpc/Contents/MacOS/com.apple.AccountPolicyHelper
+74617 /usr/libexec/SafariCloudHistoryPushAgent
+74746 /System/Library/SystemConfiguration/EAPOLController.bundle/Contents/Resources/eapolclient -i en0 -u 501 -g 20
+74749 /usr/sbin/netbiosd
+75577 /System/Library/PrivateFrameworks/ProtectedCloudStorage.framework/Helpers/ProtectedCloudKeySyncing
+75578 /System/Library/CoreServices/EscrowSecurityAlert.app/Contents/MacOS/EscrowSecurityAlert
+75581 /System/Library/PrivateFrameworks/CloudServices.framework/Versions/A/XPCServices/com.apple.sbd.xpc/Contents/MacOS/com.apple.sbd
+75583 /System/Library/PrivateFrameworks/CoreCDP.framework/Versions/A/Resources/cdpd
+75596 /usr/libexec/AssetCache/AssetCache
+75830 /Applications/Discord Canary.app/Contents/Frameworks/Discord Canary Framework.framework/Resources/crashpad_handler --database=/var/folders/sq/6dhqk69d3y339s6x2f1nn0q40000gn/T/Discord Crashes --metrics-dir=/var/folders/sq/6dhqk69d3y339s6x2f1nn0q40000gn/T/Discord Crashes --url=http://crash.discordapp.com:1127/post --handshake-fd=17
+75840 /Applications/Discord Canary.app/Contents/MacOS/Discord Canary -psn_0_35873332
+75843 /Applications/Discord Canary.app/Contents/Frameworks/Discord Canary Framework.framework/Resources/crashpad_handler --database=/var/folders/sq/6dhqk69d3y339s6x2f1nn0q40000gn/T/Discord Crashes --metrics-dir=/var/folders/sq/6dhqk69d3y339s6x2f1nn0q40000gn/T/Discord Crashes --url=http://crash.discordapp.com:1127/post --handshake-fd=17
+75844 /Applications/Discord Canary.app/Contents/Frameworks/Discord Canary Helper.app/Contents/MacOS/Discord Canary Helper --type=gpu-process --no-sandbox --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,1,10,23,25,35,38,39,45,51,59,61,62,63,64,66,70,71,73,81,82,83,86,88,89 --gpu-vendor-id=0x8086 --gpu-device-id=0x1926 --gpu-driver-vendor --gpu-driver-version --gpu-driver-date --gpu-active-vendor-id=0x8086 --gpu-active-device-id=0x1926 --service-request-channel-token=A42AE9C032AE2357B8D650536889832F
+75851 /Applications/Discord Canary.app/Contents/Frameworks/Discord Canary Helper.app/Contents/MacOS/Discord Canary Helper --type=renderer --no-sandbox --primordial-pipe-token=C99EAD1FE59521758D79148F986ADDF5 --lang=en-US --app-path=/Applications/Discord Canary.app/Contents/Resources/app.asar --node-integration=true --background-color=#282b30 --enable-blink-features=EnumerateDevices,AudioOutputDevices --hidden-page --enable-pinch --num-raster-threads=2 --enable-gpu-rasterization --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,34037;0,11,34037;0,12,34037;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,34037;1,11,34037;1,12,34037;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,34037;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,34037;2,13,3553;2,14,34037;2,15,34037;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,34037;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,34037;3,13,3553;3,14,34037;3,15,34037 --service-request-channel-token=C99EAD1FE59521758D79148F986ADDF5 --renderer-client-id=6
+75956 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.single
+75963 /usr/sbin/ocspd
+75975 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.single
+75976 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.single
+75980 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.single
+75992 /usr/libexec/videosubscriptionsd
+75993 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/XPCServices/com.apple.CommerceKit.TransactionService.xpc/Contents/MacOS/com.apple.CommerceKit.TransactionService
+76067 /System/Library/CoreServices/CoreServicesUIAgent.app/Contents/MacOS/CoreServicesUIAgent
+76082 /System/Library/CoreServices/System Events.app/Contents/MacOS/System Events
+76089 /System/Library/PrivateFrameworks/PhotoAnalysis.framework/Versions/A/Support/photoanalysisd
+76090 /System/Library/CoreServices/cloudphotosd.app/Contents/MacOS/cloudphotosd
+76107 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.single
+76108 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.single
+76195 /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper --type=renderer --js-flags=--nolazy --no-sandbox --primordial-pipe-token=5A076CB3656A5D9A1E65A7CA19B02C6B --lang=en-US --app-path=/Applications/Visual Studio Code.app/Contents/Resources/app --node-integration=true --webview-tag=true --no-sandbox --background-color=#171717 --disable-blink-features=Auxclick --enable-pinch --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,34037;0,11,34037;0,12,34037;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,34037;1,11,34037;1,12,34037;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,34037;2,11,34037;2,12,34037;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,34037;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,34037;3,13,3553;3,14,34037;3,15,34037;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,34037;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,34037;4,13,3553;4,14,34037;4,15,34037 --service-request-channel-token=5A076CB3656A5D9A1E65A7CA19B02C6B --renderer-client-id=14
+76197 /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper /Applications/Visual Studio Code.app/Contents/Resources/app/out/bootstrap --type=extensionHost
+76198 /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper /Applications/Visual Studio Code.app/Contents/Resources/app/out/bootstrap --type=watcherService
+76199 /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper /Applications/Visual Studio Code.app/Contents/Resources/app/out/bootstrap --type=searchService
+76236 /Users/kristian/.vscode/extensions/ms-vscode.cpptools-0.14.0/bin/Microsoft.VSCode.CPP.Extension.darwin
+76375 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+76419 /System/Library/StagedFrameworks/Safari/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+76434 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+76441 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+76442 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+76577 /usr/libexec/rtcreportingd
+76622 /System/Library/Frameworks/QuickLook.framework/Resources/quicklookd.app/Contents/MacOS/quicklookd
+76655 /System/Library/StagedFrameworks/Safari/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+79152 /usr/libexec/dprivacyd
+80169 /Applications/Utilities/Activity Monitor.app/Contents/MacOS/Activity Monitor
+80819 /usr/sbin/cfprefsd daemon
+83670 /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+83672 /Applications/Google Chrome.app/Contents/Versions/61.0.3163.100/Google Chrome Framework.framework/Helpers/crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --database=/Users/kristian/Library/Application Support/Google/Chrome/Crashpad --metrics-dir=/Users/kristian/Library/Application Support/Google/Chrome --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=plat=OS X --annotation=prod=Chrome_Mac --annotation=ver=61.0.3163.100 --handshake-fd=8
+83675 /Applications/Google Chrome.app/Contents/Versions/61.0.3163.100/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=gpu-process --field-trial-handle=16340711328309322735,10908152074780264338,131072 --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,1,12,27,30,43,47,48,56,62,70,73,74,75,76,83,84,86,94,95,96,100,103 --disable-gl-extensions=GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent --gpu-vendor-id=0x8086 --gpu-device-id=0x1926 --gpu-driver-vendor --gpu-driver-version --gpu-driver-date --gpu-active-vendor-id=0x8086 --gpu-active-device-id=0x1926 --service-request-channel-token=C627B0FB73D63838CFA420758A979591
+83685 /Applications/Google Chrome.app/Contents/Versions/61.0.3163.100/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=renderer --field-trial-handle=16340711328309322735,10908152074780264338,131072 --service-pipe-token=05A78A448D908F22A10F82D241F33D94 --lang=en-US --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --blink-settings=disallowFetchForDocWrittenScriptsInMainFrame=false,disallowFetchForDocWrittenScriptsInMainFrameOnSlowConnections=true --enable-pinch --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,34037;0,12,34037;0,13,34037;0,14,3553;0,15,3553;0,16,3553;0,17,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,34037;1,12,34037;1,13,34037;1,14,3553;1,15,3553;1,16,3553;1,17,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,34037;2,12,34037;2,13,34037;2,14,3553;2,15,3553;2,16,3553;2,17,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,34037;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,34037;3,14,34037;3,15,3553;3,16,34037;3,17,34037;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,34037;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,3553;4,13,34037;4,14,34037;4,15,3553;4,16,34037;4,17,34037 --enable-gpu-async-worker-context --service-request-channel-token=05A78A448D908F22A10F82D241F33D94 --renderer-client-id=4
+83686 /Applications/Google Chrome.app/Contents/Versions/61.0.3163.100/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=renderer --field-trial-handle=16340711328309322735,10908152074780264338,131072 --service-pipe-token=56127DE40B4E9AB53C28A9265D261D71 --lang=en-US --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --blink-settings=disallowFetchForDocWrittenScriptsInMainFrame=false,disallowFetchForDocWrittenScriptsInMainFrameOnSlowConnections=true --enable-pinch --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,34037;0,12,34037;0,13,34037;0,14,3553;0,15,3553;0,16,3553;0,17,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,34037;1,12,34037;1,13,34037;1,14,3553;1,15,3553;1,16,3553;1,17,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,34037;2,12,34037;2,13,34037;2,14,3553;2,15,3553;2,16,3553;2,17,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,34037;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,34037;3,14,34037;3,15,3553;3,16,34037;3,17,34037;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,34037;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,3553;4,13,34037;4,14,34037;4,15,3553;4,16,34037;4,17,34037 --enable-gpu-async-worker-context --service-request-channel-token=56127DE40B4E9AB53C28A9265D261D71 --renderer-client-id=6
+83687 /Applications/Google Chrome.app/Contents/Versions/61.0.3163.100/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=renderer --field-trial-handle=16340711328309322735,10908152074780264338,131072 --service-pipe-token=3FB39A6AD988B7A41FAE1BE8C89A03DF --lang=en-US --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --blink-settings=disallowFetchForDocWrittenScriptsInMainFrame=false,disallowFetchForDocWrittenScriptsInMainFrameOnSlowConnections=true --enable-pinch --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,34037;0,12,34037;0,13,34037;0,14,3553;0,15,3553;0,16,3553;0,17,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,34037;1,12,34037;1,13,34037;1,14,3553;1,15,3553;1,16,3553;1,17,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,34037;2,12,34037;2,13,34037;2,14,3553;2,15,3553;2,16,3553;2,17,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,34037;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,34037;3,14,34037;3,15,3553;3,16,34037;3,17,34037;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,34037;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,3553;4,13,34037;4,14,34037;4,15,3553;4,16,34037;4,17,34037 --enable-gpu-async-worker-context --service-request-channel-token=3FB39A6AD988B7A41FAE1BE8C89A03DF --renderer-client-id=7
+83688 /Applications/Google Chrome.app/Contents/Versions/61.0.3163.100/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=renderer --field-trial-handle=16340711328309322735,10908152074780264338,131072 --service-pipe-token=A556E5D4723A92168A1A290679BE409A --lang=en-US --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --blink-settings=disallowFetchForDocWrittenScriptsInMainFrame=false,disallowFetchForDocWrittenScriptsInMainFrameOnSlowConnections=true --enable-pinch --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,34037;0,12,34037;0,13,34037;0,14,3553;0,15,3553;0,16,3553;0,17,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,34037;1,12,34037;1,13,34037;1,14,3553;1,15,3553;1,16,3553;1,17,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,34037;2,12,34037;2,13,34037;2,14,3553;2,15,3553;2,16,3553;2,17,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,34037;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,34037;3,14,34037;3,15,3553;3,16,34037;3,17,34037;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,34037;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,3553;4,13,34037;4,14,34037;4,15,3553;4,16,34037;4,17,34037 --enable-gpu-async-worker-context --service-request-channel-token=A556E5D4723A92168A1A290679BE409A --renderer-client-id=8
+83690 /Applications/Google Chrome.app/Contents/Versions/61.0.3163.100/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=renderer --field-trial-handle=16340711328309322735,10908152074780264338,131072 --service-pipe-token=25C073920D7796BBF02904C69CC5BC19 --lang=en-US --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --blink-settings=disallowFetchForDocWrittenScriptsInMainFrame=false,disallowFetchForDocWrittenScriptsInMainFrameOnSlowConnections=true --enable-pinch --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,34037;0,12,34037;0,13,34037;0,14,3553;0,15,3553;0,16,3553;0,17,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,34037;1,12,34037;1,13,34037;1,14,3553;1,15,3553;1,16,3553;1,17,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,34037;2,12,34037;2,13,34037;2,14,3553;2,15,3553;2,16,3553;2,17,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,34037;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,34037;3,14,34037;3,15,3553;3,16,34037;3,17,34037;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,34037;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,3553;4,13,34037;4,14,34037;4,15,3553;4,16,34037;4,17,34037 --enable-gpu-async-worker-context --service-request-channel-token=25C073920D7796BBF02904C69CC5BC19 --renderer-client-id=10
+83691 /Applications/Google Chrome.app/Contents/Versions/61.0.3163.100/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=renderer --field-trial-handle=16340711328309322735,10908152074780264338,131072 --service-pipe-token=D9F87014C5F2524C0A6422963498CA67 --lang=en-US --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --blink-settings=disallowFetchForDocWrittenScriptsInMainFrame=false,disallowFetchForDocWrittenScriptsInMainFrameOnSlowConnections=true --enable-pinch --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,34037;0,12,34037;0,13,34037;0,14,3553;0,15,3553;0,16,3553;0,17,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,34037;1,12,34037;1,13,34037;1,14,3553;1,15,3553;1,16,3553;1,17,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,34037;2,12,34037;2,13,34037;2,14,3553;2,15,3553;2,16,3553;2,17,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,34037;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,34037;3,14,34037;3,15,3553;3,16,34037;3,17,34037;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,34037;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,3553;4,13,34037;4,14,34037;4,15,3553;4,16,34037;4,17,34037 --enable-gpu-async-worker-context --service-request-channel-token=D9F87014C5F2524C0A6422963498CA67 --renderer-client-id=11
+98089 /Applications/Numbers.app/Contents/MacOS/Numbers
+98095 /System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/com.apple.appkit.xpc.openAndSavePanelService.xpc/Contents/MacOS/com.apple.appkit.xpc.openAndSavePanelService
+98825 /Library/Application Support/Microsoft/MAU2.0/Microsoft AutoUpdate.app/Contents/MacOS/Microsoft AU Daemon.app/Contents/MacOS/Microsoft AU Daemon -psn_0_30997902
+99316 /System/Library/PrivateFrameworks/DiskImages.framework/Resources/diskimages-helper -uuid 8170CB28-2A45-4B40-A1F1-664D73E0578C -post-exec 4
+99934 /Applications/Spark.app/Contents/MacOS/Spark
+76316 login -pf kristian
+76317 -bash
+76701 ./a.out snyderks@mail.uc.edu
+76702 ps -A -o pid,command=
+48145 login -pf kristian
+48146 -bash
+48261 -bash
+48262 -bash

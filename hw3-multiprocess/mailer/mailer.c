@@ -1,4 +1,4 @@
-// Homework 3
+// Homework 3, Part A
 // Operating Systems, Dr. Yiming Hu
 // Completed by Kristian Snyder
 
@@ -64,47 +64,55 @@ int main(int argc, char** argv) {
 
   int test = 0;
 
-  struct linked_string* files = getFiles();
-  struct linked_string* procs = getProcesses();
-
   // Open a file to write to
-  FILE* f = fopen("draft.txt", "w");
+  FILE* f = fopen("draft.txt", "a");
 
-  struct linked_string* curr = files;
+  // Create a subprocess to write to the file
+  if (fork() == 0) {
+    // First retrieve a list of files
+    struct linked_string* files = getFiles();
+    struct linked_string* curr_file = files;
 
-  while ((curr = curr->next) != NULL) {
-    // Write a string and newline
-    fputs(curr->content, f);
-    putc('\n', f);
+    while ((curr_file = curr_file->next) != NULL) {
+      // Write a string and newline
+      fputs(curr_file->content, f);
+      putc('\n', f);
+    }
+  } else {
+    wait(NULL);
   }
 
-  putc('\n', f);
+  // And one more to write the processes
+  if (fork() == 0) {
+    // And then retrieve a list of processes
+    struct linked_string* procs = getProcesses();
+    struct linked_string* curr_proc = procs;
 
-  curr = procs;
+    while ((curr_proc = curr_proc->next) != NULL) {
+      // Write a string and newline
+      fputs(curr_proc->content, f);
+      putc('\n', f);
+    }
+  } else {
+    // Wait for the children
+    wait(NULL);
 
-  while ((curr = curr->next) != NULL) {
-    // Write a string and newline
-    fputs(curr->content, f);
-    putc('\n', f);
+    // Close the file off
+    fclose(f);
+
+    // Holds subject line
+    char subject[256] = {'\0'};
+
+    // Creating the subject line specified
+    int len = sprintf(subject, "There are %i files and %i processes",
+                      files->size, procs->size);
+
+    execl("/bin/mailx", "/bin/mailx", "-s", subject, email, "<", "draft.txt",
+          (char*)NULL);
   }
 
-  fclose(f);
-
-  // Holds subject line
-  char subject[256] = {'\0'};
-
-  int len = sprintf(subject, "There are %i files and %i processes", files->size,
-                    procs->size);
-
-  execl("/bin/mailx", "/bin/mailx", "-s", subject, email, "<", "draft.txt",
-        (char*)NULL);
-
+  // Delete the draft we were using to write the email
   remove("draft.txt");
-
-  free_list(files);
-  files = NULL;
-  free_list(procs);
-  procs = NULL;
 
   return 0;
 }
